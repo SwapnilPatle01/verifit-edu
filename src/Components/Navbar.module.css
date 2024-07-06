@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  height: 80px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navItem {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.dashboardContainer {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.courseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.courseCard {
+  flex: 1 0 300px; /* Adjusts the width of the cards */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+}
+
+.courseCard h3 {
+  margin-top: 0;
+}
+
+.courseCard Button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
