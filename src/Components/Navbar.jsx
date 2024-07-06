@@ -94,7 +94,7 @@ const Navbar = () => {
           <div key={index} className={styles.courseCard}>
             <h1>Course Name:{course.courseName}</h1>
             <textarea>
-              <strong>Description:</strong> {course.courseDescription}
+              <strong>Descriptiond:</strong> {course.courseDescription}
             </textarea>
             <p>
               <strong>Author:</strong> {course.courseAuthor}
